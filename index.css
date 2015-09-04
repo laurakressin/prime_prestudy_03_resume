@@ -1,0 +1,118 @@
+body {
+  background-color: #FFFAF0;
+  background-size: cover;
+  background: url(backgroundcanvas.jpg);
+}
+
+.container {
+	padding:30px;
+	margin: 80px auto 80px auto;
+	width: 800px;
+	background-color: #FFF2F7;
+	color: #3D1F00;
+	font-family: 'Muli';
+  display: none;
+}
+
+#pic {
+	float: right;
+}
+
+
+h1 {
+	font: bold 70px 'Poiret One';
+	color: mediumvioletred;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+h2 {
+	font: bold 40px 'Poiret One';
+	color: #291400;
+	border-bottom: 1px solid #291400;
+	margin: 10px 0 20px 0;
+}
+
+h2:last-child {
+  border: 0;
+}
+
+
+.content-contact > p {
+  margin: 0px;
+  padding: 2px;
+}
+
+.workexperience {
+  width: 577px;
+}
+
+h3 {
+	font-size: 22px;
+	margin: 15px 0 5px 0;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 0;
+}
+
+ul {
+	margin: 5px 0 5px 0;
+}
+
+li {
+  padding-bottom: 6px;
+  font-size: 16px;
+}
+
+
+br {
+	content: " ";
+	display: block;
+	margin: 5px;
+}
+
+.contact{
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+
+textarea {
+  display: block;
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font: 17px 'Muli';
+  margin: 0 150px;
+  color: #3D1F00;
+}
+
+input {
+  display: block;
+  width: 500px;
+  font: 15px 'Muli';
+  margin: 0 auto;
+}
+
+
+input[type=submit], button {
+  font: 17px 'Muli';
+  background-color: #FF99C2;
+  width: 300px;
+  margin: 10px auto;
+}
+
+button {
+  display: block;
+  float: left;
+  text-align: center;
+  margin-left: 350px;
+}
+
